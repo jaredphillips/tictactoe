@@ -51,7 +51,7 @@ class TicTacToe
 			@board[0][1] == 'X' && @board[1][1] == 'X' && @board[2][1] == 'X' ||#second column
 			@board[0][2] == 'X' && @board[1][2] == 'X' && @board[2][2] == 'X' #third column
 			@game_won = true
-			puts "Player One, you've won" * 100
+			puts "Player One, you've won"
 				
 		end
 	end
@@ -66,7 +66,7 @@ class TicTacToe
 			 @board[0][1] == 'O' && @board[1][1] == 'O' && @board[2][1] == 'O' ||#second column
 			 @board[0][2] == 'O' && @board[1][2] == 'O' && @board[2][2] == 'O' #third column
 			@game_won = true
-			puts "Player Two, you've won" * 100
+			puts "Player Two, you've won"
 		end
 	end
 
